@@ -1,0 +1,24 @@
+{
+  "name": "october",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "npx eslint server.js bing.js constants.js google.js httpClient.js",
+    "lint:fix": "npx eslint --fix server.js bing.js constants.js google.js httpClient.js",
+    "doc": "npx jsdoc server.js bing.js constants.js google.js httpClient.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "jsdoc": "^3.6.2"
+  }
+}
